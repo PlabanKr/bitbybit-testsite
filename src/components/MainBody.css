@@ -1,0 +1,75 @@
+.first {
+  margin: 2rem 6rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.first > .left {
+  font-size: 1.2rem;
+}
+
+.first > .left > h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 5rem;
+  font-weight: 300;
+  margin: 1rem 0rem;
+}
+
+.first > .left > p {
+  margin-right: 3rem;
+}
+
+.first > .left > button {
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 40px;
+  padding: 1.2rem 2rem;
+  box-shadow: 9px 9px 10px 0px rgba(0, 0, 0, 0.6);
+}
+
+.first > .right > img {
+  border-radius: 0;
+  margin: 1rem 0rem;
+  width: 30rem;
+}
+
+.second {
+  margin-top: 11rem;
+}
+
+.text {
+  padding: 10rem 6rem;
+  padding-left: 40rem;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.text > h1 {
+  margin: 1rem 0rem;
+  font-size: 5rem;
+}
+
+.spacer {
+  aspect-ratio: 1500/150;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.svg-img {
+  background-image: url("../img/black.svg");
+}
+
+.third {
+  margin: 6rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}

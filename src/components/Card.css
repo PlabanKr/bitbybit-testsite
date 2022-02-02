@@ -1,0 +1,49 @@
+.card {
+  background-color: #000000;
+  color: #ffffff;
+  display: grid;
+  grid-template-rows: 200px 70px 130px;
+  grid-template-areas: "image" "title" "info";
+  margin: 5px 15px;
+  padding: 2rem;
+  width: 320px;
+  border-radius: 30px;
+}
+
+.card-image {
+  margin: auto;
+  width: 100%;
+  grid-area: image;
+}
+
+img {
+  margin: 0px 60px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.card-title {
+  grid-area: title;
+  padding: 1rem 1rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.card-info {
+  grid-area: info;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.social-media {
+  margin: 2rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.social-media-logo {
+  cursor: pointer;
+  border-radius: 0;
+  width: 40px;
+  margin: 0;
+}
