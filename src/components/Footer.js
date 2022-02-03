@@ -6,16 +6,16 @@ const Footer = () => {
       <span>
         <ul>
           <li>
-            <a href="#">NEWS</a>
+            <a href="javascript:void(0);">NEWS</a>
           </li>
           <li>
-            <a href="#">SPORT</a>
+            <a href="javascript:void(0);">SPORT</a>
           </li>
           <li>
-            <a href="#">WEATHER</a>
+            <a href="javascript:void(0);">WEATHER</a>
           </li>
           <li>
-            <a href="#">FUTURE</a>
+            <a href="javascript:void(0);">FUTURE</a>
           </li>
         </ul>
       </span>

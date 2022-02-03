@@ -4,24 +4,24 @@ const Navbar = () => {
   return (
     <nav>
       <div className="left">
-        <a href="#">Bit By Bit</a>
+        <a href="javascript:void(0);">Bit By Bit</a>
       </div>
       <div className="right">
         <ul>
           <li>
-            <a href="#">FAQ</a>
+            <a href="javascript:void(0);">FAQ</a>
           </li>
           <li>
-            <a href="#">ABOUT</a>
+            <a href="javascript:void(0);">ABOUT</a>
           </li>
           <li>
-            <a href="#">EXPLORE</a>
+            <a href="javascript:void(0);">EXPLORE</a>
           </li>
           <li>
-            <a href="#">BLOG</a>
+            <a href="javascript:void(0);">BLOG</a>
           </li>
           <li>
-            <a href="#">MEMBERS</a>
+            <a href="javascript:void(0);">MEMBERS</a>
           </li>
         </ul>
       </div>
