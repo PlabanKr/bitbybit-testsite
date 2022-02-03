@@ -73,3 +73,15 @@
   align-items: center;
   justify-content: space-around;
 }
+
+.fourth {
+  height: 600px;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fifth {
+  padding: 10rem 2rem 4rem 2rem;
+}

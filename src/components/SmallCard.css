@@ -1,0 +1,10 @@
+.small-card {
+  background-color: #e2bbf0;
+  color: #000000;
+  padding: 7rem 2rem 2rem 2rem;
+  border-radius: 10px;
+  box-shadow: 7px 7px 15px 0px #b833eb;
+}
+
+.small-card > h3 {
+}

@@ -1,0 +1,36 @@
+.last-section-body {
+  color: #ffffff;
+  background-color: #000000;
+  padding: 2rem 4rem 2rem 2rem;
+  border-radius: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+
+p.upper-txt {
+  font-size: 1.7rem;
+  color: #621dee;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.last-section-body > .left > button {
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: #e2bbf0;
+  color: #000000;
+  border: none;
+  border-radius: 40px;
+  padding: 1.2rem 2rem;
+  box-shadow: 5px 5px 15px 0px #b833eb;
+}
+
+.last-section-body > .right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}

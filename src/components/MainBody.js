@@ -1,9 +1,11 @@
 import Card from "./Card";
+import CarouselElement from "./Carousel";
+import LastSection from "./LastSection";
 import "./MainBody.css";
 
 const MainBody = () => {
   return (
-    <div className="main-body">
+    <div className="main-body" id="main-body">
       <section className="first">
         <div className="left">
           <h1>Lorem Ipsum</h1>
@@ -63,6 +65,12 @@ const MainBody = () => {
         <Card />
         <Card />
         <Card />
+      </section>
+      <section className="fourth">
+        <CarouselElement />
+      </section>
+      <section className="fifth">
+        <LastSection />
       </section>
     </div>
   );
